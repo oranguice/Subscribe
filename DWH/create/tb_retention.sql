@@ -127,7 +127,7 @@ from
 		union all 
 			select col_uid, 2 as col_flag 
 				from subscribe.tb_daily_user
-				where p_date >= {date-6} and p_date <= {date}
+				where col_feed_clicks > 0 and p_date >= {date-6} and p_date <= {date}
 			group by col_uid
 	)ta 
 	group by col_uid
