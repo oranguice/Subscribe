@@ -1,0 +1,290 @@
+{
+    "data": [
+        {
+            "title": "2014 年度精选",
+            "header": {
+                "avatar": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/avatar_114961739.png",
+                "title": "2014 年度精选",
+                "description": "来自「每日精选」为你呈现的各大媒体年度评选<br>带你重新发现那些错过的精彩",
+                "followUID": ["114961739"]
+            },
+            "cardList": [
+                {
+                    "itemListID": "547319283495997440",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547319283495997440.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "547379084175347712",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547379084175347712.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "547668914776051712",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547668914776051712.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "547328762107138048",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547328762107138048.jpg",
+                    "color": "#E7A336",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "547300441227005952",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547300441227005952.jpg",
+                    "color": "#E7A336",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "545468220652396544",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/545468220652396544.jpg",
+                    "color": "#E7A336",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "547295057229647872",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547295057229647872.jpg",
+                    "color": "#3774AF",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "547605712017035264",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547605712017035264.jpg",
+                    "color": "#3774AF",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "545514384416313344",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/545514384416313344.jpg",
+                    "color": "#3277AE",
+                    "showFollowButton": false
+                }
+            ],
+            "guide": {
+                "title": "更多精彩内容",
+                "itemListID": ["544418365855240192", "522044559123816448"],
+                "color": "#C75233"
+            },
+            "floatingads": {
+                "title": "期待更多 2015 的精彩？",
+                "description": "添加关注，获取更多内容推荐。",
+                "button": "关注更多",
+                "url": "subscribe.wandoujia.com/explore"
+            }
+        }, {
+            "title": "2014 年度之选 - 应用篇",
+            "header": {
+                "avatar": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/avatar_114961739.png",
+                "title": "2014 年度之选 - 应用篇",
+                "description": "来自「每日精选」为你呈现的各大媒体年度评选<br>带你重新发现那些错过的精彩",
+                "followUID": ["114961739"]
+            },
+            "cardList": [
+                {
+                    "itemListID": "547319283495997440",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547319283495997440.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "549498999908864000",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/549498999908864000.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "547379084175347712",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547379084175347712.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "549528813533405184",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/549528813533405184.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "547668914776051712",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547668914776051712.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "548399330881445888",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/548399330881445888.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "548741865453654016",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/548741865453654016.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "547311279723778048",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547311279723778048.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "547313512997720064",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547313512997720064.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": false
+                }
+            ],
+            "guide": {
+                "title": "更多精彩内容",
+                "itemListID": ["545468220652396544", "547295057229647872"],
+                "color": "#C75233"
+            },
+            "floatingads": {
+                "title": "期待更多 2015 的精彩？",
+                "description": "添加关注，获取更多内容推荐。",
+                "button": "关注更多",
+                "url": "subscribe.wandoujia.com/explore"
+            }
+        }, {
+            "title": "2014 年度之选 - 游戏篇",
+            "header": {
+                "avatar": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/avatar_114961739.png",
+                "title": "2014 年度之选 - 游戏篇",
+                "description": "来自「每日精选」为你呈现的各大媒体年度评选<br>带你重新发现那些错过的精彩",
+                "followUID": ["114961739"]
+            },
+            "cardList": [
+                {
+                    "itemListID": "547328762107138048",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547328762107138048.jpg",
+                    "color": "#E7A336",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "549526295814348800",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/549526295814348800.jpg",
+                    "color": "#E7A336",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "547300441227005952",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547300441227005952.jpg",
+                    "color": "#E7A336",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "545468220652396544",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/545468220652396544.jpg",
+                    "color": "#E7A336",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "547320588360749056",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547320588360749056.jpg",
+                    "color": "#E7A336",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "547592091086098432",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547592091086098432.jpg",
+                    "color": "#E7A336",
+                    "showFollowButton": false
+                }
+            ],
+            "guide": {
+                "title": "更多精彩内容",
+                "itemListID": ["547668914776051712", "547295057229647872"],
+                "color": "#C75233"
+            },
+            "floatingads": {
+                "title": "期待更多 2015 的精彩？",
+                "description": "添加关注，获取更多内容推荐。",
+                "button": "关注更多",
+                "url": "subscribe.wandoujia.com/explore"
+            }
+        }, {
+            "title": "2014 年度之选 - 视频篇",
+            "header": {
+                "avatar": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/avatar_114961739.png",
+                "title": "2014 年度之选 - 视频篇",
+                "description": "来自「每日精选」为你呈现的各大媒体年度评选<br>带你重新发现那些错过的精彩",
+                "followUID": ["114961739"]
+            },
+            "cardList": [
+                {
+                    "itemListID": "547295057229647872",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547295057229647872.jpg",
+                    "color": "#3774AF",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "547605712017035264",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547605712017035264.jpg",
+                    "color": "#3774AF",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "547291821504471040",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547291821504471040.jpg",
+                    "color": "#3774AF",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "545514384416313344",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/545514384416313344.jpg",
+                    "color": "#3774AF",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "547287493058236416",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547287493058236416.jpg",
+                    "color": "#3774AF",
+                    "showFollowButton": false
+                }, {
+                    "itemListID": "547282556182073344",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/547282556182073344.jpg",
+                    "color": "#3774AF",
+                    "showFollowButton": false
+                }
+            ],
+            "guide": {
+                "title": "更多精彩内容",
+                "itemListID": ["547668914776051712", "545468220652396544"],
+                "color": "#C75233"
+            },
+            "floatingads": {
+                "title": "期待更多 2015 的精彩？",
+                "description": "添加关注，获取更多内容推荐。",
+                "button": "关注更多",
+                "url": "subscribe.wandoujia.com/explore"
+            }
+        }, {
+            "title": "他们的年度榜单",
+            "header": {
+                "avatar": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/avatar_5kol.png",
+                "title": "他们的年度榜单",
+                "description": "2014 让你印象最深的内容是什么？来自应用、游戏、电影、<br>音乐、脱口秀领域的知名达人，给出了他们的答案。",
+                "followUID": ["112654045,114855619,112656905,114855141,112650687"]
+            },
+            "cardList": [
+                {
+                    "itemListID": "555663269465952256",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/555663269465952256.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "548717986937049088",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/548717986937049088.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "555990651989139456",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/555990651989139456.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "556008900227244032",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/556008900227244032.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "555657214656778240",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/555657214656778240.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }
+            ],
+            "guide": {
+                "title": "更多精彩内容",
+                "itemListID": ["555994511390543872", "557446750567141376"],
+                "color": "#C75233"
+            },
+            "floatingads": {
+                "title": "期待更多 2015 的精彩？",
+                "description": "添加关注，获取更多内容推荐。",
+                "button": "关注更多",
+                "url": "subscribe.wandoujia.com/explore"
+            }
+        }
+    ]
+}
