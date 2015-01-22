@@ -22,8 +22,8 @@ from (
 		sum(case when col_name in ('安装','播放') and col_url_normalize like '/detail%' and col_from_url_normalize in ('/explore/subscribe_page','/explore/startpage') then 1 else 0 end) as col_subscribe_page_detail_distribution,
 		sum(case when col_name in ('安装','播放') and col_url_normalize like '/publisher_profile%' then 1 else 0 end ) as col_publisher_distribution,
 		sum(case when col_name in ('安装','播放') and col_url_normalize like '/detail%' and col_from_url_normalize like '/publisher_profile%' then 1 else 0 end) as col_publisher_detail_distribution,
-		sum(case when col_name in ('安装','播放') and col_url_normalize like '/subset_profile%' then 1 else 0 end) as col_subset_distribution,
-		sum(case when col_name in ('安装','播放') and col_url_normalize like '/detail%' and col_from_url_normalize like '/subset_profile%' then 1 else 0 end) as col_subset_detail_distribution
+		sum(case when col_name in ('安装','播放') and (col_url_normalize like '/subset_profile%' or col_url_normalize like '/topic%') then 1 else 0 end) as col_subset_distribution,
+		sum(case when col_name in ('安装','播放') and col_url_normalize like '/detail%' and (col_from_url_normalize like '/subset_profile%' or col_from_url_normalize like '/topic%') then 1 else 0 end) as col_subset_detail_distribution
 		from android.tb_click
 		where col_uid > 0 and p_date = {date}
 		group by p_date, col_uid, col_udid) d
