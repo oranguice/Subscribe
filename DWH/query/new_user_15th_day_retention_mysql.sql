@@ -6,7 +6,7 @@ select replace(date_add(p_date, interval 15 day),'-','') as p_date, col_flag, co
 		( 
 				select concat(substring(p_date, 1, 4), '-', substring(p_date, 5, 2), '-', substring(p_date, 7, 2)) as p_date, col_uid, 1 as col_flag 
 					from subscribe.tb_daily_users
-					where col_new_user = 1 p_date = {date-15}
+					where col_new_user = 1 and p_date = {date-15}
 				group by concat(substring(p_date, 1, 4), '-', substring(p_date, 5, 2), '-', substring(p_date, 7, 2)), col_uid
 			union all 
 				select date_sub(concat(substring(p_date, 1, 4), '-', substring(p_date, 5, 2), '-', substring(p_date, 7, 2)), interval 15 day) as p_date, col_uid, 2 as col_flag 
