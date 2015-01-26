@@ -1,4 +1,4 @@
-select d.col_udid, sum(d.col_downloads)
+select sum(d.col_downloads)
 from (
 	select col_udid, sum(col_downloads) as col_downloads
 	from (
@@ -18,12 +18,12 @@ from (
 			where app_type = 'GAME' and p_date = {date}) b
 		on a.col_pn = b.app_package_name
 		group by a.col_udid) c
+	group by col_udid
 	) d join (
 	select distinct col_udid
 	from android.tb_card_show
 	where p_date = {date} and col_startpage_card_feed_name = 'SubscribeFeed' and col_startpage_card_id not like '%RECOMMENDATION%') e
 on d.col_udid = e.col_udid
-
 
 
 
