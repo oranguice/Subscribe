@@ -29,7 +29,8 @@ union all
         union all
             select col_udid, count(*) as col_downloads
             from android.tb_click
-            where p_date = 20150125 and col_name = '安装' and col_url like '/detail/app?pn=%' and col_from_url = '/publisher_profile?id=101227283') d
+            where p_date = 20150125 and col_name = '安装' and col_url like '/detail/app?pn=%' and col_from_url = '/publisher_profile?id=101227283'
+            group by col_udid) d
     group by col_udid
 union all
     select e.col_udid, count(*) as col_downloads
@@ -40,7 +41,7 @@ union all
         union all
             select col_udid, case when col_from_url like '/topic%' then substring(col_url, 11, 99) else substring(col_url, 20, 99) end as col_card_id
             from android.tb_click
-            where p_date = 20150125 and col_url like '/detail/app?pn=%' and (col_from_url_normalize = '/topic?id=' or col_from_url_normalize = '/subset_profile?id=')
+            where p_date = 20150125 and col_name = '安装' and col_url like '/detail/app?pn=%' and (col_from_url_normalize = '/topic?id=' or col_from_url_normalize = '/subset_profile?id=')
         ) e join (
             select distinct col_card_id
             from (
