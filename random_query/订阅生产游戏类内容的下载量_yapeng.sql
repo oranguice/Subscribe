@@ -15,4 +15,4 @@ from (
         from datasystem.t_config_app
         where app_type = 'GAME' and p_date = {date}) b
     on a.col_pn = b.app_package_name
-    group by a.col_udid) c
+group by a.col_udid) c

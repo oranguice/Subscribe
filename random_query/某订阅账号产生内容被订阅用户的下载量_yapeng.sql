@@ -1,4 +1,4 @@
- select sum(col_downloads)
+ select sum(h.col_downloads)
  from (
     select col_udid, sum(col_downloads) as col_downloads
     from (
@@ -60,3 +60,8 @@ union all
         on e.col_card_id = f.col_card_id
     group by e.col_udid
 ) h
+join (
+select distinct col_udid
+from android.tb_card_show
+where p_date = {date} and col_startpage_card_feed_name = 'SubscribeFeed' and col_startpage_card_id not like '%RECOMMENDATION%' and col_uid > 0) i
+on h.col_udid = i.col_udid
