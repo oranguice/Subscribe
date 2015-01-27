@@ -13,7 +13,7 @@
                 from android.tb_click
                 where p_date = 20150125 and col_url_normalize like '/detail/app?pn=%' and col_name = '安装' and col_from_url = '/explore/subscribe_page')
             a join (
-                select distinct substring(col_item_id, locate(':', col_item_id)+1, 99) as col_pn
+                select distinct case when col_itme_id like 'SubscribeFeed_v1%' then substring(col_item_id, locate(':', col_item_id)+1, 99) else substring(col_itme_id, 15, 99) end as col_pn
                 from android.tb_click
                 where p_date =20150125 and col_startpage_card_id like '%ACCOUNT:101227283%') b
             on a.col_pn = b.col_pn
