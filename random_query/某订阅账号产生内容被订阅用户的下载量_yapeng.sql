@@ -13,7 +13,7 @@
                 from android.tb_click
                 where p_date = {date} and col_url_normalize like '/detail/app?pn=%' and col_name = '安装' and col_from_url = '/explore/subscribe_page')
             a join (
-                select distinct case when col_itme_id like 'SubscribeFeed_v1%' then substring(col_item_id, locate(':', col_item_id)+1, 99) else substring(col_itme_id, 15, 99) end as col_pn
+                select distinct case when col_item_id like 'SubscribeFeed_v1%' then substring(col_item_id, locate(':', col_item_id)+1, 99) else substring(col_item_id, 15, 99) end as col_pn
                 from android.tb_click
                 where p_date = {date} and col_startpage_card_id like '%ACCOUNT:{uid}%') b
             on a.col_pn = b.col_pn
@@ -57,7 +57,7 @@ union all
                     from android.tb_card_show
                     where col_startpage_card_id like 'SubscribeFeed_v1-SUBSCRIBE_FEED%ACCOUNT:{uid}%' and length(col_startpage_card_id) - length(regexp_replace(col_startpage_card_id, '#', '')) >= 2 and p_date = {date}) f
                 ) g
-        on e.col_card_id = f.col_card_id
+        on e.col_card_id = g.col_card_id
     group by e.col_udid
 ) h
 join (
