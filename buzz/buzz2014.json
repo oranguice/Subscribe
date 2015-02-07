@@ -239,10 +239,10 @@
                 "url": "subscribe.wandoujia.com/explore"
             }
         }, {
-            "title": "他们的年度榜单",
+            "title": "他们的年度推荐",
             "header": {
                 "avatar": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/avatar_5kol.png",
-                "title": "他们的年度榜单",
+                "title": "他们的年度推荐",
                 "description": "2014 让你印象最深的内容是什么？来自应用、游戏、电影、<br>音乐、脱口秀领域的知名达人，给出了他们的答案。",
                 "followUID": ["112654045,114855619,112656905,114855141,112650687"]
             },
@@ -270,6 +270,167 @@
                 }, {
                     "itemListID": "555657214656778240",
                     "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/555657214656778240.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }
+            ],
+            "guide": {
+                "title": "更多精彩内容",
+                "itemListID": ["555994511390543872", "557446750567141376"],
+                "color": "#C75233"
+            },
+            "floatingads": {
+                "title": "期待更多 2015 的精彩？",
+                "description": "添加关注，获取更多内容推荐。",
+                "button": "关注更多",
+                "url": "subscribe.wandoujia.com/explore"
+            }
+        }, {
+            "title": "ZEALER",
+            "header": {
+                "avatar": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/avatar_5kol.png",
+                "title": "ZEALER",
+                "description": "中国测评行业的拓荒者<br>坚持为用户提供有深度的科技产品测评",
+                "followUID": ["117196821"]
+            },
+            "cardList": [
+                {
+                    "itemListID": "558836280742383616",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/555663269465952256.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }
+            ],
+            "guide": {
+                "title": "更多精彩内容",
+                "itemListID": ["555994511390543872", "557446750567141376"],
+                "color": "#C75233"
+            },
+            "floatingads": {
+                "title": "期待更多精彩？",
+                "description": "添加关注，获取更多内容推荐。",
+                "button": "关注更多",
+                "url": "subscribe.wandoujia.com/explore"
+            }
+        }, {
+            "title": "向你介绍 9 位新朋友",
+            "header": {
+                "avatar": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/buzz_campaign_10_avatar.png",
+                "title": "9 个新增内容源上线了！",
+                "description": "欢迎 9 位新朋友入驻，看看他们又有什么新鲜内容推荐给你？<br>感谢他们，又为手机里的世界打开了一扇窗。",
+                "followUID": ["120205737,114962041,119372247,117843327,118915779,118916567,114964645,117196973,117196821"]
+            },
+            "cardList": [
+                {
+                    "itemListID": "562567876569993216",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/562567876569993216.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "562547592353812480",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/562547592353812480.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "562541941246398464",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/562541941246398464.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "561130100364414976",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/561130100364414976.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "562562238846603264",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/562562238846603264.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "562552260328951808",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/562552260328951808.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "549812349205221376",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/549812349205221376.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "561444548115435520",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/561444548115435520.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "562930168268591104",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/562930168268591104.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }
+            ],
+            "guide": {
+                "title": "更多精彩内容",
+                "itemListID": ["555994511390543872", "557446750567141376"],
+                "color": "#C75233"
+            },
+            "floatingads": {
+                "title": "期待更多 2015 的精彩？",
+                "description": "添加关注，获取更多内容推荐。",
+                "button": "关注更多",
+                "url": "subscribe.wandoujia.com/explore"
+            }
+        }, {
+            "title": "向你介绍 9 位新朋友",
+            "header": {
+                "avatar": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/buzz_campaign_10_avatar_2.png",
+                "title": "9 个新增内容源上线了！",
+                "description": "欢迎 9 位新朋友入驻，看看他们又有什么新鲜内容推荐给你？<br>感谢他们，又为手机里的世界打开了一扇窗。",
+                "followUID": ["120205577,101320737,120518089,117922179,114855619,114974817,117197101,114962097,114855141"]
+            },
+            "cardList": [
+                {
+                    "itemListID": "562583597962235904",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/562583597962235904.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "562487541538758656",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/562487541538758656.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "563216502409400320",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/563216502409400320.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "562176322319683584",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/562176322319683584.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "562577371593445376",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/562577371593445376.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "562601506235228160",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/562601506235228160.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "552329895477252096",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/552329895477252096.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "563223668721721344",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/563223668721721344.jpg",
+                    "color": "#55B2AE",
+                    "showFollowButton": true
+                }, {
+                    "itemListID": "556008900227244032",
+                    "banner": "http://t.wdjcdn.com/upload/subscribe/buzz/resources/556008900227244032.jpg",
                     "color": "#55B2AE",
                     "showFollowButton": true
                 }
