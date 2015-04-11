@@ -138,12 +138,6 @@ where p_date >= 20150323 and p_date <= 20150324 and col_name = '选好了' and c
 
 
 
-
-select col_udid
-from android.tb_application_start
-where p_date >= 2015
-
-
 select c.col_uid, c.col_udid, c.col_launch_days
 from (
 	select a.col_uid, a.col_udid, a.col_launch_days
@@ -167,24 +161,8 @@ left outer join (
 	where p_date >= 20140101 and p_date <= 20150322) d
 on c.col_uid = d.col_uid
 where d.col_uid is null
+--- 第二次小流量用户 udid，排除掉第一次小流量的活跃用户
 
-
-
-select c.col_udid
-from (
-	select a.col_udid, b.num
-	from (
-		select col_uid, col_udid
-		from subscribe.tb_daily_users
-		where p_date >= 20141201 and p_date <= 20150322
-		group by col_uid, col_udid) a
-	join (
-		select p_date, col_subscriberid, (length(col_publisherids) - length(regexp_replace(col_publisherids, ',', ''))) as num
-		from subscribe.tb_hubble_report_subscriber
-		where p_date = 20150320
-		group by p_date, col_subscriberid, (length(col_publisherids) - length(regexp_replace(col_publisherids, ',', '')))) b
-	on a.col_uid = b.col_subscriberid) c
-where c.num > 4
 
 
 select a.col_udid, a.num
@@ -196,7 +174,8 @@ from (
 join (
 	select p_date, col_subscriberid, (length(col_publisherids) - length(regexp_replace(col_publisherids, ',', ''))) as num
 	from subscribe.tb_hubble_report_subscriber
-	where p_date = 20150320
+	where p_date = 20150322
 	group by p_date, col_subscriberid, (length(col_publisherids) - length(regexp_replace(col_publisherids, ',', '')))) b
 on a.col_uid = b.col_subscriberid
 where a.num > 4
+---选出关注数量超过 4 的用户
