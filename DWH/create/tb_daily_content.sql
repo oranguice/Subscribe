@@ -14,10 +14,17 @@ union all
 union all
 	select p_date, substring(col_startpage_card_id, 71, 18) as col_card_id, 'SHOW' as col_action 
 	from android.tb_card_show
-	where col_startpage_card_id like 'SubscribeFeed_v1-SUBSCRIBE_FEED%' and length(col_startpage_card_id) - length(regexp_replace(col_startpage_card_id, '#', '')) >= 2 and p_date = {date}) a
+	where col_startpage_card_id like 'SubscribeFeed_v1-SUBSCRIBE_FEED%' and length(col_startpage_card_id) - length(regexp_replace(col_startpage_card_id, '#', '')) >= 2 and p_date = {date}
+union all
+	select p_date, substring(col_startpage_card_id, 90, 18) as col_card_id, 'SHOW' as col_action 
+	from android.tb_card_show
+	where col_startpage_card_id like 'SubscribeFeed_v1-SUBSCRIBE_FEED%' and length(col_startpage_card_id) - length(regexp_replace(col_startpage_card_id, '#', '')) >= 3 and p_date = {date}
+union all
+	select p_date, substring(col_startpage_card_id, 109, 18) as col_card_id, 'SHOW' as col_action 
+	from android.tb_card_show
+	where col_startpage_card_id like 'SubscribeFeed_v1-SUBSCRIBE_FEED%' and length(col_startpage_card_id) - length(regexp_replace(col_startpage_card_id, '#', '')) >= 4 and p_date = {date}) a
 group by col_card_id
 --最简模式下的内容数据仓库 step-1
-
 
 select c.p_date, c.col_publisherid, c.col_title, c.col_subscribedcount, c.col_card_id, c.col_feed_clicks, c.col_feed_impressions, case when d.col_card_id is null then 0 else 1 end
 from (
